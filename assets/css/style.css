@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2% 10% 5% 10%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-mid-line {
+    width: 15%;
+    height: 1px;
+    background-color: #000;
+}
+
+header nav {
+    width: 70%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.main-bgr {
+    width: 100%;
+    height: 70%;
+    background: url('../../img/header-bgr.jpg');
+    background-size: cover;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-mid-line {
+    width: calc(100% - 450px);
+    height: 1px;
+    background-color: #000;
+}
+
+.footer-logo {
+    width: 150px;
+    height: 65px;
+    background: url('../../img/logo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    margin-right: 15px;
+}
