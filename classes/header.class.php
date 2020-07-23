@@ -19,11 +19,11 @@
                             <div class='header-mid-line'></div>
                             <nav>
                                 <ul>
-                                    <li><a href='#'>selected work</a></li>
+                                    <li><a href='selected-work.php'>selected work</a></li>
                                     <li><a href='#'>available designs</a></li>
                                     <li><a href='#'>about</a></li>
                                     <li><a href='#'>news</a></li>
-                                    <li><a href='#'>contact</a></li>
+                                    <li><a href='contact.php'>contact</a></li>
                                 </ul>
                             </nav>
                             <div class='header-mid-line'></div>

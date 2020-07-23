@@ -11,7 +11,7 @@
                         <div class='footer-logo'></div>
                         <div class='footer-mid-line'></div>
                     </footer>
-                </body>
+                    </body>
                 </html>
             ";
             echo self::$footer;
