@@ -1,0 +1,25 @@
+form {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=text],
+input[type=email], 
+input[type=number],
+textarea {
+    width: 100%;
+    color: #252319;
+    font-size: 14px;
+    padding: 14px 20px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: 0.25s;
+}
+
+label {
+    margin-top: 10px;
+}
